@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>4466b4e9-be31-4caf-9787-6ee270519e55</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Sapper</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\EndCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\StartCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\SurfaceCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Cell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\FreeCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\MineCell.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MessageBox.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MainForm.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Map.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\MapView.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Tile_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Object_1.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Object_10.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Object_11.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Object_12.png" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Object_13.png" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Object_14.png" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Object_15.png" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Object_2.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Object_3.png" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\Object_4.png" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Object_5.png" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Object_6.png" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Object_7.png" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Object_8.png" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Object_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Resources\Object_16.png" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Object_17.png" />
+    <None Include="$(MSBuildThisFileDirectory)Resources\Object_18.png" />
+  </ItemGroup>
+</Project>

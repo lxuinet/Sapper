@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1972
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Sapper", "Sapper\Sapper.shproj", "{4466B4E9-BE31-4CAF-9787-6EE270519E55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapper.Desktop", "Sapper.Desktop\Sapper.Desktop.csproj", "{7BDF8175-B1BE-4B6A-8B42-0BA4DA80E662}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sapper.Android", "Sapper.Android\Sapper.Android.csproj", "{BDD4D847-8AB5-4BA9-97D2-6C47FB7B5C2D}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Sapper\Sapper.projitems*{4466b4e9-be31-4caf-9787-6ee270519e55}*SharedItemsImports = 13
+		Sapper\Sapper.projitems*{7bdf8175-b1be-4b6a-8b42-0ba4da80e662}*SharedItemsImports = 4
+		Sapper\Sapper.projitems*{bdd4d847-8ab5-4ba9-97d2-6c47fb7b5c2d}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BDF8175-B1BE-4B6A-8B42-0BA4DA80E662}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BDF8175-B1BE-4B6A-8B42-0BA4DA80E662}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BDF8175-B1BE-4B6A-8B42-0BA4DA80E662}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BDF8175-B1BE-4B6A-8B42-0BA4DA80E662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD4D847-8AB5-4BA9-97D2-6C47FB7B5C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD4D847-8AB5-4BA9-97D2-6C47FB7B5C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD4D847-8AB5-4BA9-97D2-6C47FB7B5C2D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BDD4D847-8AB5-4BA9-97D2-6C47FB7B5C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD4D847-8AB5-4BA9-97D2-6C47FB7B5C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD4D847-8AB5-4BA9-97D2-6C47FB7B5C2D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD5BCBA7-396F-4FEF-AE77-DA9F60CD1D81}
+	EndGlobalSection
+EndGlobal
